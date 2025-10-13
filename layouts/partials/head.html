@@ -101,7 +101,7 @@
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
 {{ if .Rel -}}
-<link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}">
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}" title="{{ .Name }}">
 {{ end -}}
 {{ end -}}
 {{- range .AllTranslations -}}
