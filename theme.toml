@@ -35,11 +35,7 @@ features = [
   "scroll-to-top",
   "search"
 ]
-<<<<<<< HEAD
-min_version = "0.126.0"
-=======
 min_version = "0.146.0"
->>>>>>> upstream/master
 
 [author]
   name = "8 Hobbies JavaScript Blog"
